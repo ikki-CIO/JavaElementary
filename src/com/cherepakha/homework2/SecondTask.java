@@ -4,6 +4,24 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+        /*
+         Robot Return to Origin
+         Есть робот на плоскости. Он может двигаться на 1 шаг в стороны:
+         R (right), L (left), U (up), and D (down)
+         Задана последовательность движений, вернуть true если оне вернется в исходную точку.
+         Example 1:
+         Input: moves = "UD"
+         Output: true
+
+         Example 2:
+         Input: moves = "LL"
+         Output: false
+
+         Example 3:
+         Input: moves = "RRDD"
+         Output: false
+         */
+
 public class SecondTask {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
