@@ -72,41 +72,6 @@ public class FirstHomeWork {
         System.out.println();
 
 
-        //К сожалению 6 задание не осилел...=(
-        File file = new File("\\Users\\mddfs\\IdeaProjects\\JavaElementary\\src\\test.txt");
-        Scanner scanner = new Scanner(file);
-        ArrayList<String> names = new ArrayList<String>();
-
-        while (scanner.hasNextLine()) {
-            names.add(scanner.nextLine());
-        }
-        scanner.close();
-        String[] namesArr = names.toArray(new String[0]);
-
-        char[][] array = new char[namesArr.length][];
-        for (int i = 0; i < namesArr.length; i++) {
-            array[i] = namesArr[i].toCharArray();
-        }
-
-        for (int i = 0; i < array.length; i++) {
-            for (int f = 0; f < array[i].length; f++) {
-                System.out.print(array[i][f]);
-
-            }
-            System.out.println();
-        }
-        String word = "test";
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-
-                if (array[i][j] == word.charAt(0)) {
-
-
-                }
-
-            }
-        }
-
     }
 
 
